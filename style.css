@@ -1,5 +1,5 @@
 :root {
-    --main-color: red;
+    --main-colorl: red;
     --black: #222;
     --white: #fff;
     --light-black: #777;
@@ -106,7 +106,7 @@ section {
 
 .header .logo {
     font-size: 2.5rem;
-    color: red;
+    color: black;
 }
 
 .header .navbar a {
@@ -543,7 +543,7 @@ section {
 }
 
 .footer {
-    background: var(--light-black);
+    background: var(--black);
 
 }
 
@@ -560,14 +560,14 @@ section {
 }
 
 .footer .box-container .box a {
-    color: var(--light-white);
+    color: var(--light-bg);
     font-size: 1.5rem;
     padding-bottom: 1.5rem;
     display: block;
 }
 
 .footer .box-container .box a i {
-    color: var(--main-color);
+    color: var(--light-black);
     padding-right: .5rem;
     transition: .2s linear;
 }
@@ -586,7 +586,7 @@ section {
 }
 
 .footer .credit span {
-    color: var(--main-color);
+    color: var(--light-bg);
 }
 
 /* media queries  */
